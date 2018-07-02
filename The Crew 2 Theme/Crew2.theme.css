@@ -2,14 +2,12 @@
 
 @font-face {
   font-family: HurmeGeometricSans4;
-  src: url(HurmeGeometricSans4-Black.ttf);
+  src: url(https://github.com/Subtisaty/betterdiscord/blob/master/The%20Crew%202%20Theme/resources/fonts/HurmeGeometricSans4-Black.woff);
 }
 
 body{
     #font-family: HurmeGeometricSans4;
 }
-
-...
 
 .typeWindows-1za-n7, .titleBar-AC4pGV{
     background: linear-gradient(270deg, #f3a626, #e60598) !important;
