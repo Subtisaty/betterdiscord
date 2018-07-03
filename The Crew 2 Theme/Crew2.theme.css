@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: HurmeGeometricSans4;
+    #font-family: HurmeGeometricSans4;
 }
 
 .typeWindows-1za-n7, .titleBar-AC4pGV{
@@ -95,21 +95,27 @@ body{
 }
 
 :root{
-    color:black !im;
-}
-
-.channel{
-    padding:5px;
-    margin:5px;
-    border-radius:5px;
+    color:black !important;
 }
 
 .channel:hover{
-    background: linear-gradient(270deg, #f3a626, #e60598) !important;
-    background-size: 400% 400% !important;
-	-webkit-animation: Gradient 3s ease-in-out infinite !important;
-	-moz-animation: Gradient 3s ease-in-out infinite !important;
-	animation: Gradient 3s ease-in-out infinite !important;
+    content:'';
+    left:1px;
+    #position: absolute;
+    z-index: 40;
+    display:block;
+    background: #ffdb15;
+    #-webkit- transform: skew( 9deg);
+    #transform: skew(-9deg);
+    transition: all 0.3s cubic-bezier(0.74,-0.01, 0.58, 1) !important;
+    width: 90%;
+    {"ease":".25,.1,.25,1","linear":"0,0,1,1","ease-in":".42,0,1,1","ease-out":"0,0,.58,1","ease-in-out":".42,0,.58,1"}
+}
+
+.channel, .channel-name:after{
+    content:'';
+    #position: absolute;
+    z-index: 39;
 }
 
 @-webkit-keyframes Gradient {
